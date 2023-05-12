@@ -2,9 +2,9 @@ package school.mjc.stage0.loops.task2;
 
 public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
-        int number = 0;
+        int number = 2;
 
-        if(number==0){
+        if(printToInclusive==0){
             System.out.print("");
         }else{
             while(number<=printToInclusive){
